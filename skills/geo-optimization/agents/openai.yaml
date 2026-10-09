@@ -1,0 +1,4 @@
+interface:
+  display_name: "GEO Optimization"
+  short_description: "Audit AI search visibility and improve cited content"
+  default_prompt: "Use $geo-optimization to audit this site and produce an evidence-based GEO plan."

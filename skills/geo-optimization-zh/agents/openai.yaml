@@ -1,0 +1,4 @@
+interface:
+  display_name: "GEO 生成式引擎优化"
+  short_description: "审计 AI 搜索可见度，核验证据与引用，制定内容优化和持续测量方案"
+  default_prompt: "使用 $geo-optimization-zh 审计这个网站，给出有证据支持的 GEO 优化方案。"
