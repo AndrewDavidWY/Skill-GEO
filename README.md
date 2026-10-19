@@ -1,4 +1,4 @@
-# GEO-Skill · 生成式引擎优化
+# GEO · 生成式引擎优化
 
 [English](README.en.md) · 中文
 
@@ -8,6 +8,19 @@
 本项目综合研究 [Promptwatch skills](https://github.com/promptwatch-com/skills) 和
 [GEO-optim/GEO](https://github.com/GEO-optim/GEO)，并核对 Google、OpenAI、Perplexity
 的一手文档。它是独立成果；研究中的效果数值不构成收录、流量或商业成效承诺。
+
+## 适合谁使用
+
+适合维护官网、品牌内容或知识库，希望检查 AI 搜索中的实体表达、引用缺口与内容证据的编辑、研究者和网站团队。先提供目标网站、受众、语言与市场；有 AI 回答导出或监测数据时一并提供。
+
+## 可以得到什么
+
+- 附来源与观察日期的发现，区分现象、推断与建议。
+- 按优先级排列的内容、技术与引用改进任务。
+- 按需求形成的改写稿、写作简报或问题面板。
+- 基于已标注数据的分项测量，不混淆提及、官网引用、推荐与业务转化。
+
+本仓库是优化方法和配套测量工具，不是网站程序，也不是自动获得 AI 收录的服务。
 
 ## 选择版本
 
@@ -24,21 +37,21 @@
 支持 Agent Skills 的客户端可通过 Skills CLI 选择安装位置：
 
 ```bash
-npx skills add andrewdavidwy-del/GEO-Skill --skill geo-optimization-zh
+npx skills add AndrewDavidWY/Skill-GEO --skill geo-optimization-zh
 ```
 
 英文版：
 
 ```bash
-npx skills add andrewdavidwy-del/GEO-Skill --skill geo-optimization
+npx skills add AndrewDavidWY/Skill-GEO --skill geo-optimization
 ```
 
 手动安装到 Codex：
 
 ```bash
-git clone https://github.com/andrewdavidwy-del/GEO-Skill.git
+git clone https://github.com/AndrewDavidWY/Skill-GEO.git
 mkdir -p ~/.codex/skills
-cp -R GEO-Skill/skills/geo-optimization-zh ~/.codex/skills/
+cp -R Skill-GEO/skills/geo-optimization-zh ~/.codex/skills/
 ```
 
 如果已有同名版本，先备份再更新。其他客户端使用其支持的 skill 目录；安装后按客户端
